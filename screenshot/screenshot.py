@@ -20,3 +20,4 @@ import pyautogui
 #
 ss = pyautogui.screenshot()
 ss.save('Do.png')
+# for the ss
