@@ -53,7 +53,7 @@ while True:
         print(int(length), vol)
         volume.SetMasterVolumeLevel(vol, None)
 
-        if length < 50:
+        if length < 50: # akraghav
             cv2.circle(img, (cx, cy), 15, (0, 255, 0), cv2.FILLED)
 
     cv2.rectangle(img, (50, 150), (85, 400), (255, 0, 0), 3)
